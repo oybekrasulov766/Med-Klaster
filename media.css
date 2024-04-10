@@ -1,0 +1,191 @@
+@media only screen and (max-width: 900px) {
+    .navbar-m {
+        padding: 1rem;
+    }
+
+    .logo a h1 {
+        font-size: 1rem;
+    }
+
+    .menu ul {
+        display: block;
+    }
+
+    .menu ul li button {
+        display: block;
+        border: none;
+        padding: 1rem;
+        border-radius: 10px;
+        color: #fff;
+        margin-bottom: 2rem;
+        background-color: #B4D4FF;
+    }
+
+    #down {
+        margin-left: 1rem;
+        font-size: 1rem;
+    }
+
+    .block {
+        background-color: #fff;
+        display: block;
+
+    }
+
+    .block:nth-child(5) {
+        border-radius: 0 0 10px 10px;
+    } 
+
+    .menu-media {
+        z-index: 1000;
+        display: none;
+    } 
+
+    .menu-media-none {
+        display: none;
+    }
+
+    .header {
+        display: block;
+        padding: 1rem;
+    }
+
+    .header-img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        width: auto;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+
+    .header-img img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .header-text {
+        display: block;
+        width: auto;
+    }
+
+    .header-text-content {
+        font-size: 2rem;
+        text-align: center;
+        padding: 1rem;
+
+    }
+
+    .header-text a {
+        padding: .5rem;
+    }
+
+    .header-text div {
+        justify-content: center;
+    }
+
+    .services {
+        padding: 1rem;
+    }
+
+    .services-content {
+        flex-wrap: wrap;
+    }
+
+    #carouselExampleCaptions {
+        padding: 1rem;
+    }
+
+    .carousel-flex {
+        display: block;
+    }
+
+    .carousel-content {
+        width: auto;
+        margin: 0;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        visibility: hidden;
+    }
+
+    .footer-m {
+        display: block;
+        padding: 1rem;
+    }
+
+    .footer-m h5 {
+        text-align: center;
+    }
+
+    .footer-content-first {
+        width: auto;
+    }
+
+    .footer-content-second ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0 0 2rem 0;
+
+    }
+
+    /* About page */
+    .about-us {
+        display: block;
+        padding: 1rem;
+    }
+
+    .about-us img {
+        margin: 0 0 2rem 0;
+        width: 100%;
+    }
+
+    .timetable {
+        display: block;
+        padding: 1rem;
+    }
+
+    .timetable-content {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .timetable-content table tr td {
+        padding: 2rem 4rem;
+    }
+    
+    .timetable-content table {
+        margin: 0 0 2rem 0;
+    }
+
+    /* Contact Page */
+
+    .contact-us {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .contact-info {
+        padding: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .contact-us img {
+        margin: 0;
+    }
+
+    .about-services {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .about-services img {
+        margin: 0 0 2rem 0;
+    }
+}
